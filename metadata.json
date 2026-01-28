@@ -1,0 +1,7 @@
+{
+  "name": "Sentinela - Gestão Disciplinar",
+  "description": "Sistema integrado para Escolas Cívico-Militares. Acompanhamento comportamental, registros disciplinares e análise de métricas em tempo real.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
