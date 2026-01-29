@@ -12,8 +12,8 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ title, user, onOpenMenu, isMenuOpen }) => {
   const getTranslatedTitle = (viewTitle: string) => {
     switch (viewTitle.toLowerCase()) {
-      case 'dashboard': return 'Quartel General / Monitoramento';
-      case 'students': return 'Efetivo de Alunos';
+      case 'dashboard': return 'Monitoramento';
+      case 'students': return 'Painel de Alunos';
       case 'incidents': return 'Registro de Fatos Observados';
       case 'registry': return 'Lançamento de Novo FO';
       case 'reports': return 'Estatísticas Comportamentais';
