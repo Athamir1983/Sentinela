@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ title, user, onOpenMenu, isMenuOpen }) 
       case 'reports': return 'Estatísticas Comportamentais';
       case 'profile': return 'Dossiê Disciplinar';
       case 'add_student': return 'Cadastro de Novo Aluno';
-      case 'moderators': return 'Gestão de Equipe / Moderadores';
+      case 'moderators': return 'Gestão de Equipe';
       default: return viewTitle;
     }
   };
